@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\Program Files\PCL\pcl1.8.0\include\pcl-1.8;D:\Program Files\PCL_dependencies\Boost\include;D:\Program Files\PCL_dependencies\Eigen\include;D:\Program Files\PCL_dependencies\VTK 5.8.0\include\vtk-5.8;D:\Program Files\PCL_dependencies\flann\include\flann;D:\Program Files\PCL_dependencies\OpenNI\Include\Win32;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LibraryPath>D:\Program Files\PCL\pcl1.8.0\lib;D:\Program Files\PCL_dependencies\Boost\lib;D:\Program Files\PCL_dependencies\VTK 5.8.0\lib\vtk-5.8;D:\Program Files\PCL_dependencies\flann\lib;D:\Program Files\PCL_dependencies\OpenNI\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>pcl_common_debug.lib;pcl_features_debug.lib;pcl_filters_debug.lib;pcl_io_debug.lib;pcl_io_ply_debug.lib;pcl_kdtree_debug.lib;pcl_keypoints_debug.lib;pcl_ml_debug.lib;pcl_octree_debug.lib;pcl_recognition_debug.lib;pcl_registration_debug.lib;pcl_sample_consensus_debug.lib;pcl_search_debug.lib;pcl_segmentation_debug.lib;pcl_stereo_debug.lib;pcl_surface_debug.lib;pcl_tracking_debug.lib;pcl_visualization_debug.lib;flann_cpp_s-gd.lib;libboost_system-vc100-mt-gd-1_50.lib;libboost_filesystem-vc100-mt-gd-1_50.lib;libboost_thread-vc100-mt-gd-1_50.lib;libboost_date_time-vc100-mt-gd-1_50.lib;libboost_iostreams-vc100-mt-gd-1_50.lib;MapReduceMPI-gd.lib;MapReduceMPI.lib;mpistubs-gd.lib;mpistubs.lib;QVTK-gd.lib;QVTK.lib;vtkalglib-gd.lib;vtkalglib.lib;vtkCharts-gd.lib;vtkCharts.lib;vtkCommon-gd.lib;vtkCommon.lib;vtkDICOMParser-gd.lib;vtkDICOMParser.lib;vtkexoIIc-gd.lib;vtkexoIIc.lib;vtkexpat-gd.lib;vtkexpat.lib;vtkFiltering-gd.lib;vtkFiltering.lib;vtkfreetype-gd.lib;vtkfreetype.lib;vtkftgl-gd.lib;vtkftgl.lib;vtkGenericFiltering-gd.lib;vtkGenericFiltering.lib;vtkGeovis-gd.lib;vtkGeovis.lib;vtkGraphics-gd.lib;vtkGraphics.lib;vtkhdf5-gd.lib;vtkhdf5.lib;vtkHybrid-gd.lib;vtkHybrid.lib;vtkImaging-gd.lib;vtkImaging.lib;vtkInfovis-gd.lib;vtkInfovis.lib;vtkIO-gd.lib;vtkIO.lib;vtkjpeg-gd.lib;vtkjpeg.lib;vtklibxml2-gd.lib;vtklibxml2.lib;vtkmetaio-gd.lib;vtkmetaio.lib;vtkNetCDF-gd.lib;vtkNetCDF.lib;vtkNetCDF_cxx-gd.lib;vtkNetCDF_cxx.lib;vtkpng-gd.lib;vtkpng.lib;vtkproj4-gd.lib;vtkproj4.lib;vtkRendering-gd.lib;vtkRendering.lib;vtksqlite-gd.lib;vtksqlite.lib;vtksys-gd.lib;vtksys.lib;vtktiff-gd.lib;vtktiff.lib;vtkverdict-gd.lib;vtkverdict.lib;vtkViews-gd.lib;vtkViews.lib;vtkVolumeRendering-gd.lib;vtkVolumeRendering.lib;vtkWidgets-gd.lib;vtkWidgets.lib;vtkzlib-gd.lib;vtkzlib.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
