@@ -33,6 +33,10 @@ OpenCV采用的是2.4.9版本，目前已经出到了OpenCV3，可以根据自�
 ![opencvinstalldir](opencv_install2.jpg)
 
 然后需要在系统环境变量中的PATH项中，添加OpenCV的安装路径
+![opencv_path](opencv_path1.jpg)
+![opencv_path](opencv_path2.jpg)
+![opencv_path](opencv_path3.jpg)
+![opencv_path](opencv_path4.jpg)
 
 
 
