@@ -25,6 +25,8 @@ OpenCV采用的是2.4.9版本，目前已经出到了OpenCV3，可以根据自�
 
 为了图省事，我直接下载了2.4.9的Win Pack，是一个exe程序。
 
+## 二、OpenCV安装
+
 双击运行后，选择安装路径
 
 ![opencvinstall](opencv_install.jpg)
@@ -32,11 +34,23 @@ OpenCV采用的是2.4.9版本，目前已经出到了OpenCV3，可以根据自�
 点击Extract，完成安装。安装完毕后目录下分别有source和build文件夹。
 ![opencvinstalldir](opencv_install2.jpg)
 
-然后需要在系统环境变量中的PATH项中，添加OpenCV的安装路径
+然后需要在系统环境变量中的PATH项中，添加OpenCV的安装路径，我的是D:\Program Files (x86)\OpenCV\build\x86\vc10\bin
 ![opencv_path](opencv_path1.jpg)
 ![opencv_path](opencv_path2.jpg)
 ![opencv_path](opencv_path3.jpg)
 ![opencv_path](opencv_path4.jpg)
+
+## 三、OpenCV在Visual Studio 2010中的配置
+
+## 三、OpenCV在Visual Studio 2010中的配置
+
+
+D:\Program Files %28x86%29\OpenCV\build\include;
+D:\Program Files %28x86%29\OpenCV\build\include\opencv;
+D:\Program Files %28x86%29\OpenCV\build\include\opencv2;
+
+D:\Program Files %28x86%29\OpenCV\build\x86\vc10\lib;
+
 
 
 
